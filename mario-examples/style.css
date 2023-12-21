@@ -48,16 +48,16 @@ body {
 	position: absolute;
 	top: -40px;
 	left: 0;
-	animation: drive 3s linear 1 both;
+	animation: drive 3s linear infinite both;
 	animation-delay: 2s;
 }
 
 /*// KEYFRAMES //*/
 @keyframes drive {
 	0% {
-		transform: translateX(0);
+		transform: translateX(-200px);
 	}
 	100% {
-		transform: translateX(700px);
+		transform: translateX(2000px);
 	}
 }
