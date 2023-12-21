@@ -10,3 +10,20 @@ body {
 img {
 	transform: translateX(200px) translateY(200px) scale(1.2);
 }
+
+.circle {
+	width: 100px;
+	padding: 20px;
+	line-height: 0;
+	margin: 60px auto;
+	background: royalblue;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background 0.5s ease-in-out, transform 0.2s 0.5s ease-in-out;
+}
+
+.circle:hover {
+	background: darkblue;
+	transform: rotate(360deg);
+}
