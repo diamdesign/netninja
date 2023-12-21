@@ -7,3 +7,6 @@ body {
 	padding: 20px;
 	box-sizing: border-box;
 }
+img {
+	transform: translateX(200px) translateY(200px) scale(1.2);
+}
