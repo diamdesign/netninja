@@ -50,6 +50,7 @@ body {
 	left: 0;
 	animation: drive 3.5s linear infinite both;
 	animation-delay: 2s;
+	animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 .luigi {
