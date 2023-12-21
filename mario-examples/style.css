@@ -71,3 +71,32 @@ body {
 		transform: translateX(2000px);
 	}
 }
+
+.cloud {
+	position: absolute;
+	top: 40px;
+}
+
+.cloud:nth-child(1) {
+	width: 200px;
+	top: 120px;
+	opacity: 0.5;
+	animation: wind 80s linear infinite reverse;
+}
+
+.cloud:nth-child(2) {
+	width: 300px;
+	top: 20px;
+	left: 500px;
+	opacity: 1;
+	animation: wind 50s linear infinite reverse;
+}
+
+@keyframes wind {
+	from {
+		left: -500px;
+	}
+	to {
+		left: 105%;
+	}
+}
