@@ -48,7 +48,7 @@ body {
 	position: absolute;
 	top: -140px;
 	left: 0;
-	animation: drive 3.5s linear infinite both;
+	animation: drive 3.5s linear infinite both, jump 0.3s 1.2s ease 1 forwards;
 	animation-delay: 2s;
 	animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
@@ -98,5 +98,17 @@ body {
 	}
 	to {
 		left: 105%;
+	}
+}
+
+@keyframes jump {
+	0% {
+		top: -140px;
+	}
+	50% {
+		top: -200px;
+	}
+	100% {
+		top: -140px;
 	}
 }
