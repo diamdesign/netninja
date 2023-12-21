@@ -48,7 +48,8 @@ body {
 	position: absolute;
 	top: -40px;
 	left: 0;
-	animation: drive 5s linear 1 forwards;
+	animation: drive 3s linear 1 both;
+	animation-delay: 2s;
 }
 
 /*// KEYFRAMES //*/
